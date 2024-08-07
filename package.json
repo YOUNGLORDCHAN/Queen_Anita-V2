@@ -22,6 +22,7 @@
       "@whiskeysockets/baileys": "6.6.0",
       "acrcloud": "^1.4.0",
       "anime-character-random": "latest",
+      "@distube/ytdl-core@latest", 
       "aptoide-scraper": "^1.0.1",
       "async-g-i-s": "^1.4.0",
       "axios": "^0.24.0",
@@ -65,7 +66,7 @@
       "wa-sticker-formatter": "^4.3.2",
       "youtubei.js": "^7.0.0",
       "ytdl-core": "^4.11.5",
-      "ytdl-core": "github:franceking1/flash-dls"
+      "ytdl-core": "github:DeeCeeXxx/ytdl-core"
    },
    "directories": {
       "lib": "lib",
