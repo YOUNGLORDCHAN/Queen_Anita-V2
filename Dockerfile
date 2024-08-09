@@ -12,6 +12,9 @@ RUN apt-get update && \
 RUN git clone https://github.com/DeeCeeXxx/Queen_Anita-V2  /root/DeeCeeXxx
 WORKDIR /root/DeeCeeXxx/
 
+# Clear npm cache and remove node_modules directories
+RUN npm cache clean --force
+RUN rm -rf ~/node_modules 
 
 COPY package.json .
 
